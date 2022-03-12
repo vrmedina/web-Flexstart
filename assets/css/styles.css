@@ -10,9 +10,11 @@ header .logo {
     height: 100%;
     padding: 1vw;
     padding-left: 4vw;
+    width: 12%;
 }
 header .logo img, header .logo h1{
     display: inline-block;
+    font-size: 2.3vw;
 }
 header .logo h1 {
     color: darkblue;
@@ -20,6 +22,7 @@ header .logo h1 {
 }
 header .navigation {
     height: 100%;
+    width: 75%;
     margin-left: auto; 
     margin-right: 3vw;
     float: right;
@@ -33,6 +36,7 @@ header .navigation nav ul li{
 header .navigation nav ul li a{
     text-decoration: none;
     color: darkblue;
+    font-size: 1.4vw;
 }
 header .navigation nav ul li .nav-home, header .navigation nav ul li .nav-contact{
     color: blue;
@@ -57,7 +61,7 @@ header .logo, header .navigation {
 }
 .main-section .main-left {
     width: 45%;
-    padding: 90px 50px 50px 50px;
+    padding: 5% 5% 5% 5%;
     vertical-align: top;
     font-size: 1.7vw;
 }
@@ -80,10 +84,18 @@ header .logo, header .navigation {
     color: white;
     border-radius: 5%;
     line-height: 40px;
-    padding: 2px 40px 2px 40px;
+    padding: 0% 2% 0% 2%;
     text-align: center;
     box-shadow: 0px 00px 10px 10px rgb(52, 116, 255, 0.2);
 }
+.main-section .main-right {
+    width: 40%;
+}
+.main-section .main-right img{
+    width: 95%;
+    height: 95%;
+}
+
 .our-values {
     text-align: center;
     width: 100%;
